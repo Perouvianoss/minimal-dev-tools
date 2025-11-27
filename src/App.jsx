@@ -2,7 +2,7 @@ import { Route, Router, Routes } from "react-router-dom";
 import SidebarLayout from "./components/common/SidebarLayout";
 import Pomodoro from "./pages/Pomodoro";
 import HomeApps from "./pages/HomeApps";
-import About from "./components/About/About";
+import About from "./pages/About";
 
 function App() {
   return (
