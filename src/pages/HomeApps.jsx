@@ -1,4 +1,4 @@
-import { Calculator, CloudSun, Timer } from "lucide-react";
+import { Calculator, CloudSun, FilePenLine, Timer } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,6 +10,13 @@ function HomeApps() {
         "A productivity app that uses the Pomodoro technique to break work into intervals, typically 25 minutes of focused work followed by a 5-minute break.",
       path: "/pomodoro",
       icon: <Timer />,
+    },
+    {
+      name: "Resume Builder",
+      descr:
+        "An intuitive app to create professional resumes effortlessly. Customize templates, add your details, and download a polished resume in minutes.",
+      path: "/resume",
+      icon: <FilePenLine />,
     },
     {
       name: "Calculator",
